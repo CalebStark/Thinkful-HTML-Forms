@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+form div textarea{
+    height: 100px;
+}
+
+form button{
+    width: 50px;
+    margin-left: 15px;
+}
